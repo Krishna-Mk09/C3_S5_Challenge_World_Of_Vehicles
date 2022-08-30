@@ -46,4 +46,13 @@ public class Transmission {
     public void setNoOfForwardGears(int noOfForwardGears) {
         this.noOfForwardGears = noOfForwardGears;
     }
+
+    @Override
+    public String toString() {
+        return "Transmission{" +
+                "transmissionType='" + transmissionType + '\'' +
+                ", modelNumber='" + modelNumber + '\'' +
+                ", noOfForwardGears=" + noOfForwardGears +
+                '}';
+    }
 }
