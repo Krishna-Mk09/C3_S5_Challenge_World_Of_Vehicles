@@ -16,4 +16,10 @@ public class Transmission {
 
     public Transmission() {
     }
+
+    public Transmission(String transmissionType, String modelNumber, int noOfForwardGears) {
+        this.transmissionType = transmissionType;
+        this.modelNumber = modelNumber;
+        this.noOfForwardGears = noOfForwardGears;
+    }
 }
