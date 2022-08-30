@@ -18,4 +18,8 @@ public class ModelMP4 extends TypeOfTransmissions {
         super.gearRatio(gearRatio1, gearRatio2, gearRatio3, gearRatio4);
     }
 
+    @Override
+    public String toString() {
+        return "ModelMP4{} " + super.toString();
+    }
 }
