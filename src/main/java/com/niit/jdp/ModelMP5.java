@@ -8,7 +8,7 @@
 
 package com.niit.jdp;
 
-public class ModelMP5 extends Manual {
+public class ModelMP5 extends TypeOfTransmissions {
     public ModelMP5(String transmissionType, String modelNumber, int noOfForwardGears) {
         super(transmissionType, modelNumber, noOfForwardGears);
     }

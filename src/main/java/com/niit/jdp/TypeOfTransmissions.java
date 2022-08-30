@@ -8,7 +8,7 @@
 
 package com.niit.jdp;
 
-public class Manual extends Transmission implements TypeOfTransmission {
+public class TypeOfTransmissions extends Transmission implements TypeOfTransmission {
 
     @Override
     public void gearRatio(float gearRatio1, float gearRatio2, float gearRatio3, float gearRatio4) {
@@ -29,10 +29,10 @@ public class Manual extends Transmission implements TypeOfTransmission {
         System.out.println("gearRatio4 = " + gearRatio5);
     }
 
-    public Manual() {
+    public TypeOfTransmissions() {
     }
 
-    public Manual(String transmissionType, String modelNumber, int noOfForwardGears) {
+    public TypeOfTransmissions(String transmissionType, String modelNumber, int noOfForwardGears) {
         super(transmissionType, modelNumber, noOfForwardGears);
     }
 
