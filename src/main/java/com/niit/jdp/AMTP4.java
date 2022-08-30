@@ -18,4 +18,9 @@ public class AMTP4 extends TypeOfTransmissions {
     public void gearRatio(float gearRatio1, float gearRatio2, float gearRatio3, float gearRatio4) {
         super.gearRatio(gearRatio1, gearRatio2, gearRatio3, gearRatio4);
     }
+
+    @Override
+    public String toString() {
+        return "AMTP4{} " + super.toString();
+    }
 }
