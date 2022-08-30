@@ -22,4 +22,28 @@ public class Transmission {
         this.modelNumber = modelNumber;
         this.noOfForwardGears = noOfForwardGears;
     }
+
+    public String getTransmissionType() {
+        return transmissionType;
+    }
+
+    public void setTransmissionType(String transmissionType) {
+        this.transmissionType = transmissionType;
+    }
+
+    public String getModelNumber() {
+        return modelNumber;
+    }
+
+    public void setModelNumber(String modelNumber) {
+        this.modelNumber = modelNumber;
+    }
+
+    public int getNoOfForwardGears() {
+        return noOfForwardGears;
+    }
+
+    public void setNoOfForwardGears(int noOfForwardGears) {
+        this.noOfForwardGears = noOfForwardGears;
+    }
 }
