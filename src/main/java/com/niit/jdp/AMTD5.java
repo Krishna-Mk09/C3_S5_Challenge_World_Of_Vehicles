@@ -15,4 +15,9 @@ public class AMTD5 extends TypeOfTransmissions {
     public AMTD5(String transmissionType, String modelNumber, int noOfForwardGears) {
         super(transmissionType, modelNumber, noOfForwardGears);
     }
+
+    @Override
+    public String toString() {
+        return "AMTD5{} " + super.toString();
+    }
 }
