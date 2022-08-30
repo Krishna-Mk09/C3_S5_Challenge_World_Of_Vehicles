@@ -9,4 +9,9 @@
 package com.niit.jdp;
 
 public class Transmission {
+
+    private String transmissionType;
+    private String modelNumber;
+    private int noOfForwardGears;
+
 }
