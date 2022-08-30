@@ -16,8 +16,6 @@ public class TypeOfTransmissions extends Transmission implements TypeOfTransmiss
         System.out.println("gearRatio2 = " + gearRatio2);
         System.out.println("gearRatio3 = " + gearRatio3);
         System.out.println("gearRatio4 = " + gearRatio4);
-
-
     }
 
     @Override
