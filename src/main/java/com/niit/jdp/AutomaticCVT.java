@@ -8,12 +8,11 @@
 
 package com.niit.jdp;
 
-public class AutomaticCVT extends Transmission {
+public class AutomaticCVT extends TypeOfTransmissions {
     public AutomaticCVT() {
     }
 
     public AutomaticCVT(String transmissionType, String modelNumber, int noOfForwardGears) {
         super(transmissionType, modelNumber, noOfForwardGears);
     }
-
 }
