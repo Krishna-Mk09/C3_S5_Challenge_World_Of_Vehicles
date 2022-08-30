@@ -8,5 +8,11 @@
 
 package com.niit.jdp;
 
-public class AMTD5 {
+public class AMTD5 extends TypeOfTransmissions {
+    public AMTD5() {
+    }
+
+    public AMTD5(String transmissionType, String modelNumber, int noOfForwardGears) {
+        super(transmissionType, modelNumber, noOfForwardGears);
+    }
 }
