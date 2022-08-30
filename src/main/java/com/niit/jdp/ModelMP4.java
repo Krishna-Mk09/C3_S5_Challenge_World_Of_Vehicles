@@ -36,4 +36,9 @@ public class ModelMP4 extends Transmission implements TypeOfTransmission {
     public ModelMP4(String transmissionType, String modelNumber, int noOfForwardGears) {
         super(transmissionType, modelNumber, noOfForwardGears);
     }
+
+    @Override
+    public String toString() {
+        return "ModelMP4{} " + super.toString();
+    }
 }
