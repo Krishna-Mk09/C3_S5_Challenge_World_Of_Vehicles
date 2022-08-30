@@ -14,4 +14,6 @@ public class Transmission {
     private String modelNumber;
     private int noOfForwardGears;
 
+    public Transmission() {
+    }
 }
