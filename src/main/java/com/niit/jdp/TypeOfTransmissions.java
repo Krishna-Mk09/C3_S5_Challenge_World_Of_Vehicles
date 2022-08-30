@@ -10,6 +10,13 @@ package com.niit.jdp;
 
 public class TypeOfTransmissions extends Transmission implements TypeOfTransmission {
 
+    public TypeOfTransmissions() {
+    }
+
+    public TypeOfTransmissions(String transmissionType, String modelNumber, int noOfForwardGears) {
+        super(transmissionType, modelNumber, noOfForwardGears);
+    }
+
     @Override
     public void gearRatio(float gearRatio1, float gearRatio2, float gearRatio3, float gearRatio4) {
         System.out.println("gearRatio1 = " + gearRatio1);
@@ -25,13 +32,6 @@ public class TypeOfTransmissions extends Transmission implements TypeOfTransmiss
         System.out.println("gearRatio3 = " + gearRatio3);
         System.out.println("gearRatio4 = " + gearRatio4);
         System.out.println("gearRatio4 = " + gearRatio5);
-    }
-
-    public TypeOfTransmissions() {
-    }
-
-    public TypeOfTransmissions(String transmissionType, String modelNumber, int noOfForwardGears) {
-        super(transmissionType, modelNumber, noOfForwardGears);
     }
 
     @Override

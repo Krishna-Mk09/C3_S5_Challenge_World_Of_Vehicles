@@ -13,6 +13,7 @@ public class ModelMP4 extends TypeOfTransmissions {
         super(transmissionType, modelNumber, noOfForwardGears);
     }
 
+
     @Override
     public void gearRatio(float gearRatio1, float gearRatio2, float gearRatio3, float gearRatio4) {
         super.gearRatio(gearRatio1, gearRatio2, gearRatio3, gearRatio4);

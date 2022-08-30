@@ -8,13 +8,9 @@
 
 package com.niit.jdp;
 
-public class Amt extends Transmission {
+public class AMTP4 extends TypeOfTransmissions {
 
-    public Amt() {
-    }
-
-    public Amt(String transmissionType, String modelNumber, int noOfForwardGears) {
+    public AMTP4(String transmissionType, String modelNumber, int noOfForwardGears) {
         super(transmissionType, modelNumber, noOfForwardGears);
     }
-
 }
