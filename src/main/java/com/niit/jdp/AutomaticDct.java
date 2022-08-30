@@ -8,5 +8,11 @@
 
 package com.niit.jdp;
 
-public class AutomaticDct {
+public class AutomaticDct extends TypeOfTransmissions {
+    public AutomaticDct() {
+    }
+
+    public AutomaticDct(String transmissionType, String modelNumber, int noOfForwardGears) {
+        super(transmissionType, modelNumber, noOfForwardGears);
+    }
 }
