@@ -20,4 +20,9 @@ public class ModelMP8 extends TypeOfTransmissions {
     public ModelMP8(String transmissionType, String modelNumber, int noOfForwardGears) {
         super(transmissionType, modelNumber, noOfForwardGears);
     }
+
+    @Override
+    public String toString() {
+        return "ModelMP8{} " + super.toString();
+    }
 }
