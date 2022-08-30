@@ -13,4 +13,11 @@ public class ModelMP6 extends TypeOfTransmissions {
     public void gearRatio(float gearRatio1, float gearRatio2, float gearRatio3, float gearRatio4, float gearRatio5, float gearRatio6) {
         super.gearRatio(gearRatio1, gearRatio2, gearRatio3, gearRatio4, gearRatio5, gearRatio6);
     }
+
+    public ModelMP6() {
+    }
+
+    public ModelMP6(String transmissionType, String modelNumber, int noOfForwardGears) {
+        super(transmissionType, modelNumber, noOfForwardGears);
+    }
 }
