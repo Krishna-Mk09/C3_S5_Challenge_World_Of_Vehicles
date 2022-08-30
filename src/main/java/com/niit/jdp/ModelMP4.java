@@ -8,5 +8,25 @@
 
 package com.niit.jdp;
 
-public class ModelMP4 {
+public class ModelMP4 extends Transmission implements TypeOfTransmission {
+
+    @Override
+    public void gearRatio(float gearRatio1, float gearRatio2, float gearRatio3, float gearRatio4) {
+
+    }
+
+    @Override
+    public void gearRatio(float gearRatio1, float gearRatio2, float gearRatio3, float gearRatio4, float gearRatio5) {
+
+    }
+
+    @Override
+    public void gearRatio(float gearRatio1, float gearRatio2, float gearRatio3, float gearRatio4, float gearRatio5, float gearRatio6) {
+
+    }
+
+    @Override
+    public void gearRatio(float gearRatio1, float gearRatio2, float gearRatio3, float gearRatio4, float gearRatio5, float gearRatio6, float gearRatio7, float gearRatio8) {
+
+    }
 }
