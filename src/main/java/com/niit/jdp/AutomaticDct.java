@@ -15,4 +15,9 @@ public class AutomaticDct extends TypeOfTransmissions {
     public AutomaticDct(String transmissionType, String modelNumber, int noOfForwardGears) {
         super(transmissionType, modelNumber, noOfForwardGears);
     }
+
+    @Override
+    public String toString() {
+        return "AutomaticDct{} " + super.toString();
+    }
 }
